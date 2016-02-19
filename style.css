@@ -1,0 +1,61 @@
+.button {
+	display: inline-block;
+	height: 50px;
+    width: 85px;
+    font-size: 2em;
+	border-radius: 10px;
+	margin: 5px;
+	color: #313131;
+	background-color: #D6D5D5;
+	box-shadow: inset 0 0 1px 1px #707070, 0 2px 3px #193047;
+	border: none;
+	outline: none;
+	background-image:linear-gradient(rgb(200,200,200),rgb(220,220,220) 50%,rgb(220,220,220) 50%,rgb(200,200,200));
+}
+
+button:hover {
+	box-shadow: inset 0 0 0 1px #303030,0 5px 15px #606060;
+}
+
+button:active {
+	box-shadow: inset 0 0 0 1px #474747,inset 0 5px 30px #474747;
+}
+
+#textarea {
+	height: 70px;
+	width: 360px;
+	margin: 10px auto;
+	background-color: #ECFFC7;
+	border-radius: 8px;
+	box-shadow: inset 0 0 3px 3px #888888;
+}
+
+#text {
+	margin-top:10px;
+	text-align: right;
+	font-size: 1.6em;
+	margin-right: 50px;
+}
+
+#calculator {
+	width: 400px;
+	height: 460px;
+	padding-top: 1px;
+	text-align: center;
+	background-color: #B4B4B4;	
+}
+
+#zero {
+	width: 186px;
+}
+
+#equal {
+	height: 110px;
+}
+#beforeequal {
+	float: left;
+}
+
+#equalwrapper {
+	margin-left: 3px;
+}
